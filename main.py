@@ -32,7 +32,7 @@ async def root():
     }
 
 
-@app.get("/predict")
+@app.post("/predict")
 async def predict(observation: Observation):
     predictions = model.predict([[
         observation.sepal_length,

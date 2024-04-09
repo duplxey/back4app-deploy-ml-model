@@ -31,7 +31,7 @@ To learn more check out the [article](#).
 
 3. Start a new container:
    ```sh
-    $ docker run -p 80:80 --name iris-webapp iris-webapp:1.0
+    $ docker run -p 8000:8000 --name iris-webapp iris-webapp:1.0
     ```
 
 4. Navigate to [http://localhost/](http://localhost/) in your favorite web browser.
