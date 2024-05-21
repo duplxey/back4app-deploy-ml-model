@@ -34,4 +34,4 @@ To learn more check out the [article](#).
     $ docker run -p 8000:8000 --name iris-webapp iris-webapp:1.0
     ```
 
-4. Navigate to [http://localhost/](http://localhost/) in your favorite web browser.
+4. Navigate to [http://localhost:8000/](http://localhost:8000/) in your favorite web browser.
